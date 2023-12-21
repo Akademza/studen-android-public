@@ -11,10 +11,10 @@ android {
 
     defaultConfig {
         applicationId "ai.pifagor.android"
-        minSdk 21
+        minSdk 26
         targetSdk 33
-        versionCode 1
-        versionName "1.0.0"
+        versionCode 3
+        versionName "1.0.3"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         vectorDrawables {
@@ -108,8 +108,8 @@ dependencies {
     implementation 'com.google.firebase:firebase-analytics-ktx'
 
     // AppHud
-    implementation 'com.apphud:ApphudSDK-Android:1.6.2'
-
+    //implementation 'com.apphud:ApphudSDK-Android:1.6.2'
+    implementation 'com.apphud:ApphudSDK-Android:2.0.0'
     // WebView
     implementation "com.google.accompanist:accompanist-webview:0.25.0"
 
