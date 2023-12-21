@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <external-files-path name="my_images" path="Android/data// jp.jerom.caomec/files/Pictures" />
+    <external-files-path name="my_images2" path="/storage/emulated/0/Android/data/ jp.jerom.caomec/files/Pictures" />
+    <files-path name="my_images3" path="images/"/>
+    <cache-path name="camera" path="camera/"/>
+</paths>
