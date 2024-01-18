@@ -13,8 +13,8 @@ android {
         applicationId "ai.pifagor.android"
         minSdk 26
         targetSdk 34
-        versionCode 4
-        versionName "1.0.4"
+        versionCode 6
+        versionName "1.0.6"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         vectorDrawables {
@@ -109,7 +109,7 @@ dependencies {
 
     // AppHud
     //implementation 'com.apphud:ApphudSDK-Android:1.6.2'
-    implementation 'com.apphud:ApphudSDK-Android:2.0.0'
+    implementation 'com.apphud:ApphudSDK-Android:2.2.0'
     // WebView
     implementation "com.google.accompanist:accompanist-webview:0.25.0"
 
