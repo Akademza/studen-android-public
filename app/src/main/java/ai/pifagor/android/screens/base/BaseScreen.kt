@@ -23,6 +23,7 @@ fun BaseScreen(
         BaseViewState.WebView -> WebViewScreen()
         BaseViewState.Native -> QuestionsScreen()
         BaseViewState.Update -> WebViewScreen()
+        else -> WebViewScreen()
     }
 
 }
