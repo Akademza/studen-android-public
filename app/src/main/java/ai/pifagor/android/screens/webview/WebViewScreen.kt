@@ -84,7 +84,7 @@ fun WebViewScreen() {
             webView.settings.databaseEnabled = true
             webView.settings.javaScriptCanOpenWindowsAutomatically = true
             webView.settings.javaScriptEnabled = true
-            webView.settings.userAgentString = "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+            webView.settings.userAgentString = "Mozilla/5.0 (Linux; Android 10; HD1913) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.6099.210 Mobile Safari/537.36 EdgA/120.0.2210.126"
             webView.loadUrl(BuildConfig.WEB_VIEW_URL, mapOf("Authorization" to "Bearer ${MainRepository.getAuthToken()}"))
         },
         client = webClient,
